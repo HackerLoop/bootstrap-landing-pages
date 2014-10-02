@@ -1,0 +1,62 @@
+/*!
+ * Landing page by Hackerloop
+ */
+
+
+
+ body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}   
+
+h1 {
+    font-weight: bold;
+}
+
+.logo {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 12px 0 0 24px;
+}
+.full-image {   
+    display: block;
+    width: 50%;
+    background: url('https://c3.staticflickr.com/7/6179/6161622855_79fc6b53b8_b.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content {
+    padding: 24px 48px;
+}
+
+
+
+footer {
+    margin: 50px 0;
+}
+
+/*
+Responsive variables
+*/
+
+@media(min-width:1024px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(max-width:767px) {
+    .full-image {    
+        width: 100%;
+        max-height: 300px;
+    }
+
+}

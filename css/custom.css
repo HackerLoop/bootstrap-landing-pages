@@ -3,8 +3,11 @@
  */
 
 
+/*
+Typo
+*/
 
- body {
+body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 
@@ -14,31 +17,63 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    padding: 12px 0;
+}
+
+/*
+Left column
+*/
+
 .logo {
     font-family: Montserrat, sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 36px;
-    padding: 12px 0 0 24px;
+    padding: 24px 0 0 24px;
 }
 .full-image {   
     display: block;
     width: 50%;
-    background: url('https://c3.staticflickr.com/7/6179/6161622855_79fc6b53b8_b.jpg') no-repeat center center scroll;
+    background: url('http://lorempixel.com/1280/900/cats/3') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+/*
+Right column
+*/
+
 .content {
     padding: 24px 48px;
 }
 
+.fork-button {
+    text-align: center;
+}
 
+/*
+Mailchimp form
+*/
 
-footer {
-    margin: 50px 0;
+#mc-form {
+    padding: 48px 0 24px;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 16px;
+    color: red;
+}
+.valid {
+    font-weight: 400;
+    font-size: 16px;
+} 
+.mc-label {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /*
@@ -54,9 +89,16 @@ Responsive variables
 }
 
 @media(max-width:767px) {
+    .logo {
+        text-align: center;
+        padding-left: 0;
+    }
     .full-image {    
         width: 100%;
-        max-height: 300px;
+        max-height: 200px;
+    }
+    .content {
+        padding: 12px 24px;
     }
 
 }

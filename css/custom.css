@@ -30,7 +30,9 @@ Left column
     color: #fff;
     font-weight: 700;
     font-size: 36px;
-    padding: 24px 0 0 24px;
+    margin: 48px;
+    border: 2px solid white;
+    text-align: center;
 }
 .full-image {   
     display: block;

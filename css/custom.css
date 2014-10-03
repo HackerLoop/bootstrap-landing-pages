@@ -68,7 +68,7 @@ Mailchimp form
 */
 
 #mc-form {
-    padding: 48px 0 24px;
+    padding: 24px 0;
 }
 
 .error {
@@ -99,8 +99,7 @@ Responsive variables
 
 @media(max-width:767px) {
     .logo {
-        text-align: center;
-        padding-left: 0;
+
     }
     .full-image {    
         width: 100%;

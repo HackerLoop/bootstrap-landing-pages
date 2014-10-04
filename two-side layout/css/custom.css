@@ -1,0 +1,116 @@
+/*!
+ * Landing page by Hackerloop
+ */
+
+
+/*
+Typo
+*/
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}   
+
+h1 {
+    font-weight: bold;
+    font-size: 2.1em;
+}
+
+p {
+    padding: 12px 0;
+}
+
+/*
+Left column
+*/
+
+.logo {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    border: 2px solid white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 4em;
+    height: 80px;
+
+}
+.full-image {   
+    display: block;
+    width: 50%;
+    background: url('http://lorempixel.com/1280/900/cats/3') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*
+Right column
+*/
+
+.content {
+    padding: 1em 2.5em;
+}
+
+.fork-button {
+    text-align: center;
+}
+
+/*
+Mailchimp form
+*/
+
+#mc-form {
+    padding: 1.5em 0;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: red;
+}
+.valid {
+    font-weight: 400;
+    font-size: 0.8em;
+} 
+.mc-label {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+/*
+Responsive variables
+*/
+
+@media(min-width:1024px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(max-width:767px) {
+    body {
+        font-size: 15px;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .full-image {    
+        width: 100%;
+        max-height: 200px;
+    }
+    .content {
+        padding: 12px 24px;
+    }
+
+}

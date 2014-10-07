@@ -1,5 +1,5 @@
 /*!
-* full image layout
+ * standard layout
  * Landing page by Hackerloop
  */
 
@@ -8,46 +8,40 @@
 Typo
 */
 
-.fullbackground {
-    background: url('http://lorempixel.com/1920/1080/cats/') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.background-image-overlay {
-    display:block;
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index:-1;
-    background:url(../img/background-image-overlay.png) repeat;
-}
 
 body {
-    font-size: 18px;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    background: transparent;
-
+  font-size: 18px;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }   
 
 h1 {
-    font-weight: bold;
-    font-size: 2.1em;
+  font-weight: 400;
+  font-size: 2.1em;
 }
 
-p {
-    padding: 12px 0;
-}
+
 
 
 .logo {
-    font-family: Montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 2em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.header {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.about {
+  color: #222;
+}
+
+.services {
+  padding: 2em 0;
 
 }
 
@@ -56,24 +50,28 @@ p {
 Mailchimp form
 */
 
-.form-inline {
-
-}
-#mc-form {
-}
-
 .error {
-    font-weight: 400;
-    font-size: 0.8em;
-    color: red;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: red;
 }
 .valid {
-    font-weight: 400;
-    font-size: 0.8em;
+  font-weight: 400;
+  font-size: 0.8em;
 } 
 .mc-label {
-    font-weight: 400;
-    font-size: 0.8em;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+
+/*
+Footer
+*/
+
+footer {
+  padding: 2em 0;
+  text-align: center;
 }
 
 /*
@@ -81,27 +79,14 @@ Responsive variables
 */
 
 @media(min-width:1024px) {
-
 }
 
 @media(min-width:768px) {
-    .content {
-        padding-top: 10%;
-        text-align: right;
-    }
-
-
 }
 
 @media(max-width:767px) {
-    body {
-
-    }
-    .content {
-        padding: 5%;
-    }
-    .form-inline {
-        width: 40%;
-    }
+  body {
+    font-size: 16px;
+  }
 
 }

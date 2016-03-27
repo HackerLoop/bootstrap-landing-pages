@@ -6,6 +6,6 @@ Startup landing page template made with bootstrap. Google Analytics, Mailchimp a
 Examples
 -----------------------
 
-- https://HackerLoop.github.io/bootstrap-landing-pages/fullsize
-- https://HackerLoop.github.io/bootstrap-landing-pages/standard
-- https://HackerLoop.github.io/bootstrap-landing-pages/two-side
+- [Fullsize](https://HackerLoop.github.io/bootstrap-landing-pages/fullsize)
+- [Standard](https://HackerLoop.github.io/bootstrap-landing-pages/standard)
+- [Two-side](https://HackerLoop.github.io/bootstrap-landing-pages/two-side)
